@@ -1,16 +1,57 @@
-### Hi there 👋
+Hello. I have no idea why you are here, but as others seem to have text here, I figured I might put something here as well.
 
-<!--
-**MultisampledNight/MultisampledNight** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## The long version
 
-Here are some ideas to get you started:
+My story starts with `bash`. I told a person about my interest of learning what is behind the scenes, writing my own programs, wanting to know what is exactly going on and understanding why things can break. So the person gave me in a few hours an introduction to `bash`. None of the actual "advanced" things like loops, if-branches or functions, but one basic thing: variables. It was quite important that I understood how variables work, they are just a box where I can put things in and out again. `bash` made this easier to understand because everything is actually a string, and you have to say explicitly if you want to use the value of a variable with `$`.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I asked myself how things like Age of Empires 2 or notepad could be written only using these basic variables. Were they really just throwing around variables, adding them, subtracting them, concatenating them? For quite a while I just didn't care, and played AoE 2 on my Win XP machine.
+
+Until a few years later. Another person gave me a link to an online `Python` course. I made it almost through in 3 weeks because I just didn't have anything better to do at the time. It also started with variables which I recognized similar as what I knew from `bash`, but then I got confused by the different datatypes. Why is there `NoneType`, `int`, `str`, `bool`? Even if the course started only with variables, later on it explained if-branches, loops, functions, more complicated datatypes like `dict` or `list`. And as I learned about how to define my own functions, I realized the actual task of solving a problem.
+
+You get a task description. "Write an XOR using only NANDs, here are the outputs for the given inputs" or "Somewhere in this program could be a key stored unsecurely, extract it". And then it's fully up to you on how you solve it. On the first, you might define common constructs like OR or INV first to make the whole task easier. On the second, you might attach a debugger and write a script which should find the memory which matches the behavior of the key. But still, even though it might seem straightforward, I really fear the moment when I'll get a task and I have to say "I have no idea.". And the only things that can protect me from that are creativity and experience, both things I lack of.
+
+After learning the basics of `Python`, I coded actually a lot. I also read some books about `Python` at the time, and even though no one of my friends was ever interested in programming/coding, I just saw it as my own hobby. I also tried my luck on some projects, including, but not limited to
+* My own protocol for communicating over GPIO with another Raspberry Pi
+* Finding actually relevant entries in really old books which noted down transaction costs
+* A top-down game with different biomes
+* Managing a calendar through a TUI with ncurses
+
+but I finished the least of them.
+
+I recognized that `Python` isn't perfect for every case. I wanted to do impressive visual things, control every pixel on the screen, but Python was too slow, and I didn't find very suitable modules for that (PyGame was too complicated for me to use at the time). So I looked around, and another person watching quite a lot of YouTube at the time lead me to The Coding Train, a YouTube channel which does amazing things with `p5.js` and `Processing`. The Coding Train also had (and still has) a full playlist for learning `Processing`. So... guess what I did, I went for it. You want a rectangle, centered on the screen? Sure, just throw `rect(width / 2 - 50, height / 2 - 20, 100, 40)` anywhere you want. Draw logic? Just create a new function called `draw`, it will be recognized and called automatically every frame. I think that's amazing.
+
+`Processing` sticked with me for a long time. I had really fun with it, and I made my first Android apps with it. At some time I even made a cell simulation with it, which had random mutation parameters, to observe Evolution in practise. But well, no language is perfect - even though `Processing` was way better than `Python` in terms of speed, sometimes I still hit the boundaries. So I remembered a language whose the person showing me `bash` warned me about: `C++`.
+
+I saw it like the end of everything. The ultimate and last challenge for anyone who wants to call themselves a programmer. If I'd learn it, I could do so many things, I could help in every project, I could program for everything without having anything preinstalled, I could calculate the worley noise for a 4K display while talking with a server what the next color should be, if I'd just start now and having it learned in a few years. Well, that's me, a fool falling for the trap. With YouTube videos I first "learnt" `C` and then `C++`, all in a few weeks.
+
+In that time I met OpenGL, and it seemed to me like the perfect thing I wanted to do, drawing efficiently on the screen like nothing else. So with _another_ YouTube video series, I learnt the basics of OpenGL. But I found it too complicated for everyday use. Why do I need to define a vertex buffer layout, actually allocate one, fill it with contents, draw it, and delete it if I don't need it anymore, if I could just wrap everything in one class? And that's how I started my first and last `C++` Project, `Processing` in `C++`, nicknamed `Procpping`. It actually started pretty okay. I was able to throw a rectangle on the screen, a circle as well, but they were uncolored. And that's where the fun started: When I tried to add color to the vertex buffer layout, took it in the shader, and use it when creating a vertex buffer as well, the window was just - blank. Empty. Completely empty. Even after two weeks of debugging, I was unable to find the issue that caused the rectangle to be undrawn.
+
+So I realized what I was actually doing. I was trying to use an insanely difficult language directly after learning it, without even knowing about Assembly, memory layout, stack or the heap, or any of the gaps you can fall in when using `C++`. I went back to Processing and Python, switched to Linux (thank you, certain person who told me about Arch), played around with my Raspberry Pi, learnt about using Flask... just did other things. Until I first heard about `Rust`.
+
+At first I was very skeptical. I found a lot of memes about `Rust` and how incomplete it is, and how much is just copied from other things. So I wrote it off as a would-be good language, and just stayed at my well known `Python` and `Processing`. However, over time, I heard better and even better things about it, so at one evening I started to read into `The Rust Programming Language`, a book by some of `Rust`s developers, and curated + updated by `Rust`s community. I was fascinated on how fundamentally it avoids common mistakes. You _have_ to handle errors if you get a `Result`. You _have_ to explicitly say what to do if an `Option` is `None`. There are no inheritation errors with broken members, every inheritation that is there is done through traits. The focus from eventually failing to check at runtime gets transitioned to not compiling at all at compile time.
+
+Throughout a few months, I read the book until the end, in the middle I made a little break to practise how much I understood until now. I found the community being awesome in answering really _everything_ if you have a little and easy question, but also if you have specific complicated lifetime problems in a certain scenario. And even though I am still at the beginning, I am hyped for learning more. More about Memory, more about Rust, more about Python, more about computer science in general, more about data science, more about Linux, and maybe even some day about C++. But not today.
+
+Even though this might look like a long time, it was shorter than you might think.
+
+### Sidenotes
+
+I wrote no names of the "persons" on purpose, to protect their privacy. I'm sure they'll know that they are meant when they will be reading this (if they read it at all).
+
+## The short version
+
+* Bash
+* Python
+* Processing
+* Successfully failed in C++
+* Rust
+
+Currently I'm mainly using Python, Rust where possible for me, and Zsh or Bash where I need it.
+
+## What you can find here
+
+Not much, at least as of now. You might like my Vim colorscheme. The Discord bot you see (the `archer`) is my first one ever and my configs are just here in case someone wants them. Or a part. Like I take sometimes parts of the configuration of others. Currently I'm working on my first bigger project in Rust.
+
+## How to contact me
+
+It's probably better if you just look at the author's email of a recent commit, as I might forget updating here. Or you just use the platform/communication way you met me on.
