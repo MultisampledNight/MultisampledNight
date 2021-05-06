@@ -10,7 +10,7 @@ Until a few years later. Another person gave me a link to an online [`Python`](h
 
 You get a task description. "Write an XOR using only NANDs, here are the outputs for the given inputs" or "Somewhere in this program could be a key stored unsecurely, extract it". And then it's fully up to you on how you solve it. On the first, you might define common constructs like OR or INV first to make the whole task easier. On the second, you might attach a debugger and write a script which should find the memory which matches the behavior of the key. But still, even though it might seem straightforward, I really fear the moment when I'll get a task and I have to say "I have no idea.". And the only things that can protect me from that are creativity and experience, both things I lack of.
 
-After learning the basics of `Python`, I coded actually a lot. I also read some books about `Python` at the time, and even though no one of my friends was ever interested in programming/coding, I just saw it as my own hobby. I also tried my luck on some projects, including, but not limited to
+After learning the basics of `Python`, I coded actually a lot. I also read some books about `Python` at the time, and even though no one of my friends were ever interested in programming/coding, I just saw it as my own hobby. I also tried my luck on some projects, including, but not limited to
 * My own protocol for communicating over GPIO with another Raspberry Pi
 * Finding actually relevant entries in really old books which noted down transaction costs
 * A top-down game with different biomes
