@@ -55,3 +55,6 @@ Not much, at least as of now. You might like my Vim colorscheme. The Discord bot
 ## How to contact me
 
 It's probably better if you just look at the author's email of a recent commit, as I might forget updating here. Or you just use the platform/communication way you met me on.
+
+About my nick: Technically it's `MultisampledNight`, or `multisn8` (notice the capitalization) for short, but Multi, Multisn or any other variants are also okay. About the pronouns, again, technically they are he/him, but I won't be mad if you miss them (Actually I'm the opinion that it shouldn't matter at all, but that's another story).
+
