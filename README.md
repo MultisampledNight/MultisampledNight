@@ -50,11 +50,11 @@ Currently I'm mainly using Python, Rust where possible for me, and Zsh or Bash w
 
 ## What you can find here
 
-Not much, at least as of now. You might like my Vim colorscheme. The Discord bot you see (the `archer`) is my first one ever and my configs are just here in case someone wants them. Or a part. Like I take sometimes parts of the configuration of others. Currently I'm working on my first bigger project in Rust.
+Not much, at least as of now. You might like my Vim colorschemes: [`samplednight`](https://github.com/MultisampledNight/samplednight) in case you don't care about balance, and [`silentmission`](https://github.com/MultisampledNight/silentmission) in case you want another useless theme. Else, only some tools and libraries lay around here, probably not of much interest. My configs are just here if someone wants them. Or a part. Like I take sometimes parts of the configuration of others. Currently I'm working on my first bigger project in Rust.
 
 ## How to contact me
 
-It's probably better if you just look at the author's email of a recent commit, as I might forget updating here. Or you just use the platform/communication way you met me on.
+It's probably better if you look at the author's email of a recent commit, as I might forget updating here. Or you just use the platform/communication way you met me on.
 
 About my nick: Technically it's `MultisampledNight`, or `multisn8` (notice the capitalization) for short, but Multi, Multisn or any other variants are also okay. About the pronouns, again, technically they are he/him, but I won't be mad if you miss them (Actually I'm the opinion that it shouldn't matter at all, but that's another story).
 
