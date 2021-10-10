@@ -50,7 +50,7 @@ Currently I'm mainly using Python, Rust where possible for me, and Zsh or Bash w
 
 ## What you can find here
 
-Not much, at least as of now. You might like my Vim colorschemes: [`samplednight`](https://github.com/MultisampledNight/samplednight) in case you don't care about balance, and [`silentmission`](https://github.com/MultisampledNight/silentmission) in case you want another useless theme. Else, only some tools and libraries lay around here, probably not of much interest. My configs are just here if someone wants them. Or a part. Like I take sometimes parts of the configuration of others. Currently I'm working on my first bigger project in Rust.
+Not much, at least as of now. You might like my Vim colorschemes: [`samplednight`](https://github.com/MultisampledNight/samplednight) in case you don't care about balance, and [`silentmission`](https://github.com/MultisampledNight/silentmission) in case you want another useless theme. Else, only some tools and libraries lay around here, probably not of much interest. My configs are just here if someone wants them. Or a part. Like I take sometimes parts of the configuration of others.
 
 ## How to contact me
 
