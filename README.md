@@ -1,7 +1,8 @@
 ## Hi!
 
 My name is MultisampledNight or multisn8 for short, but any variations are okay!
-Most people just call me Multi, use any pronouns you like~
+Most people just call me Multi, use any pronouns you like! Although, do please
+**avoid** gendered nouns like "queen" or "bro" as name for me.
 
 Things I'm usually working with include:
 
