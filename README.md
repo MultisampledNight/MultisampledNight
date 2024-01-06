@@ -29,3 +29,6 @@ awesomeness of Blender.
 Feel free to hit me up about pretty much anything! If you happen to know me from
 elsewhere, probably that platform is best for communication, else you could take
 a look at recent commits to get my email~
+
+
+<a style="display: none" rel="me" href="https://peoplemaking.games/@multisn8">Mastodon</a>
